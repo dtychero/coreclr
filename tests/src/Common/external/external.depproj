@@ -7,13 +7,13 @@
     -->
     <RestoreOutputPath>$(MSBuildThisFileDirectory)obj</RestoreOutputPath>
     <Language>C#</Language>
-    <NugetTargetMoniker>.NETCoreApp,Version=v1.1</NugetTargetMoniker>
-    <NugetTargetMonikerShort>netcoreapp1.1</NugetTargetMonikerShort>
+    <NugetTargetMoniker>.NETCoreApp,Version=v2.1</NugetTargetMoniker>
+    <NugetTargetMonikerShort>netcoreapp2.1</NugetTargetMonikerShort>
     <NugetRuntimeIdentifier>win7-x64</NugetRuntimeIdentifier>
     <ContainsPackageReferences>true</ContainsPackageReferences>
     <OutputPath>$(TargetingPackPath)</OutputPath>
     <XUnitRunnerPackageId>xunit.runner.console</XUnitRunnerPackageId>
-    <XUnitRunnerTargetFramework>netcoreapp2.0</XUnitRunnerTargetFramework>
+    <XUnitRunnerTargetFramework>netcoreapp2.1</XUnitRunnerTargetFramework>
     <CLRTestKind>SharedLibrary</CLRTestKind>
     <IsTestProject>false</IsTestProject>
   </PropertyGroup>
@@ -56,7 +56,7 @@
     </PackageReference>
   </ItemGroup>
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50;portable-net45+win8</PackageTargetFallback>
     <RuntimeIdentifiers>win7-x86;win7-x64</RuntimeIdentifiers>
   </PropertyGroup>
